@@ -1,11 +1,3 @@
-// loader
-const loader = document.querySelector('.loader');
-
-window.addEventListener('load', () => {
-
-    loader.classList.add('fondu-out');
-
-})
 
 // TYPED
 var typed = new Typed('.typed', {
