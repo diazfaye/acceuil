@@ -589,6 +589,7 @@ input:hover::placeholder, textarea:hover::placeholder, input:hover:focus::placeh
 }
 .form-button {
   background: transparent;
+  color: blue;
   border: solid 1px #b3aca7;
   padding: 20px 75px;
   margin: 14px 0 -20px 0;
