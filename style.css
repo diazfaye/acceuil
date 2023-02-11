@@ -42,8 +42,9 @@ li {
     
   }
   header {
+    position: relative;
     text-align: center;
-    height: 100vh;
+    height: 695px;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     /*background: url(media/image.jpeg) no-repeat fixed 50% 50%;*/
     background-size: cover;
@@ -97,12 +98,15 @@ li {
     box-shadow: 0 0 4px #111;
   }
   header .button {
+    position: relative;
+    
     margin-top: 25px;
+    margin-bottom: 100%;
   }
   header .button a {
     padding: 9px 30px;
     border: 1px solid #b3aca7;
-    width: 100px;
+    width: 2%;
   }
   header .button:hover a {
     background: #b3aca7;
@@ -112,12 +116,13 @@ li {
   }
 
   .presentation-image {
-    margin: 80px 0 0 0;
+    margin: 20px 0 0 0;
   }
   .presentation-image img {
+    margin: 20px 0 0 0;
     max-width: 100%;
     height: 50%;
-    width: 1960px;
+    width: 100%;
     
   }
 .presentation-image img:hover {
@@ -645,7 +650,11 @@ footer p {
   letter-spacing: 0.3em;
 }
 /* ********************** MEDIA QUERIES *********************** */
-
+@media screen and (max-width: 915px){
+  .infos h5, .typed {
+    font-size: 0.9em;
+  }
+}
 @media screen and (max-width: 900px) {
   .infos h5, .typed {
     font-size: 0.9em;
@@ -704,7 +713,7 @@ footer p {
   .counter-value {
     font-size: 1em;
   }
-  .data-span {
+  .data span {
     font-size: .8em;
   }
   .data {
@@ -742,6 +751,10 @@ footer p {
   h1 {
     padding-top: 20px;
   }
+
+  h2 {
+    font-size: 1em !important;
+  }
   h3 {
     font-size: 1em !important;
   }
@@ -755,7 +768,10 @@ footer p {
     margin-right: 1%;
   }
   .data {
-    width: 5em;
+    width: 4em;
+  }
+  .data span {
+    font-size: 0.8em;
   }
   .projet:nth-child(2), .projet:nth-child(3) {
     margin-left: 0;
@@ -772,4 +788,50 @@ footer p {
   .flip-box-back p {
     font-size: 0.7em;
   }
+}
+@media screen and (width: 304px){
+  #formations {
+    width: 96%;
+  }
+  #formations h3 {
+    padding-left: 1%;
+  }
+  #openClass {
+    padding-left: 2%;
+  }
+  #udemy {
+    padding-left: 2%;
+  }
+  #academy {
+    padding-left: 10%;
+  }
+  #langages {
+    width: 96%;
+  }
+
+}
+
+@media screen and (width: 280px){
+  .infos h5, .typed {
+    font-size: 0.7em;
+  }
+  #formations {
+    width: 96%;
+  }
+  #formations h3 {
+    padding-left: 1%;
+  }
+  #openClass {
+    padding-left: 2%;
+  }
+  #udemy {
+    padding-left: 2%;
+  }
+  #academy {
+    padding-left: 10%;
+  }
+  #langages {
+    width: 96%;
+  }
+
 }
