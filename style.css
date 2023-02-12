@@ -81,7 +81,7 @@ li {
     /*background-color:rgba(226, 183, 63, 0.822);*/
   }
   .photo {
-    border: 2px solid #b3aca7;
+    border: 1px solid #b3aca7;
     position: relative;
   }
   .photo img {
